@@ -1,0 +1,172 @@
+/* !CORES! */
+:root{  
+    --Branco-cor:#fff;
+    --Preto-cor: #000;
+    --CinzaClaro-cor: #f1f1f1;
+    --Vermelho-cor: #d40000;
+    --VermelhoEscuro: #d40026;
+    --Vinho-cor: #92004c;
+    --RoxoEscuro-cor: #700073;
+    --Roxo-cor: #4e0099;
+    --Azul-cor: #000080;
+    --AzulClaro-cor: #cce0e7;
+}
+
+/* !FONTS! */
+@font-face {
+    font-family: Waltograph42;
+    src: url(../fonts/waltograph42.otf);
+}
+@font-face {
+    font-family: WaltographUI;
+    src: url(../fonts/waltographUI.ttf);
+}
+@font-face {
+    font-family: Montserrat-light;
+    src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+    font-family: Montserrat-regular;
+    src: url(../fonts/Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: Montserrat-bold;
+    src: url(../fonts/Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: Montserrat-black;
+    src: url(../fonts/Montserrat-Black.otf);
+}
+
+/* !VARÁVEIS! */
+.titulo{
+    font-family: WaltographUI;
+    font-size: 3em;
+}
+.subtitulo{
+    font-family: Waltograph42;
+    font-size: 2em;
+}
+.light{
+    font-family: Montserrat-light;
+    font-size: 1.3em;
+}
+.regular{
+    font-family: Montserrat-regular;
+    font-size: 1.3em;
+}
+.bold{
+    font-family: Montserrat-bold;
+    font-size: 1.3em;
+}
+.black{
+    font-family: Montserrat-black;
+    font-size: 1.3em;
+}
+.flex{
+    display: flex;
+}
+.colum{
+    flex-direction: column;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.w100{
+    width: 100%;
+}
+.w90{
+    width: 90%;
+}
+.w80{
+    width: 80%;
+}
+.branco{
+    color: var(--Branco-cor);
+}
+.preto{
+    color: var(--Preto-cor);
+}
+.s1_3em{
+    font-size: 1.3em;
+}
+img{
+    width: 100%;
+}
+
+
+
+/* !INDEX! */
+body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--Vinho-cor);
+}
+header{
+    background-color: var(--AzulClaro-cor);
+    height: 180px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.logo{
+    width: 15%;
+}
+main{
+    margin-top: 2%;
+}
+.pontuacao{
+    padding: 2%;
+    border-radius: 40px;
+    background-color: var(--AzulClaro-cor);
+    margin: 2%;
+}
+.header_pontuacao{
+    margin-bottom: 1%;
+}
+.container_pontuacao{
+    gap: 10px;
+}
+.progress{
+    height: 30px;
+    border-radius: 30px;
+}
+.progress-bar{
+    padding: 1%;
+}
+
+.arquivos{
+    margin: 1%;
+}
+.arquivos h1{
+    font-size: 2em;
+    color: var(--Branco-cor);
+}
+.regras{
+    width: 10%;
+}
+.container-arquivos{
+    margin: 1%;
+}
+.img_regras{
+    width: 95%;
+}
+.container-arquivos a:hover .img_regras{
+    transition: 0.5s;
+    width: 100%;
+}
+
+
+footer{
+    background-color: var(--Roxo-cor);
+    height: 100px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.fa-instagram{
+    font-size: 40px;
+    color: var(--Azul-cor);
+}
+.fa-instagram:hover{
+    color: var(--Vinho-cor);
+}
