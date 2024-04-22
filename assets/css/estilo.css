@@ -122,9 +122,6 @@ body{
     font-size: 5em;
     color: var(--Vinho-cor);
 }
-main{
-    margin-top: 2%;
-}
 .header_pontuacao h1{
     padding: 1%;
     padding-left: 6%;
@@ -246,6 +243,31 @@ footer{
 .fa-instagram:hover{
     color: var(--Vinho-cor);
 }
+main{
+    position: relative;
+    z-index: 10;
+}
+
+.triangulo_cima{
+    position: fixed;
+    left: -170px;
+    width: 0; 
+    height: 0; 
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    border-top: 170px solid var(--Vinho-cor);
+}
+.triangulo_baixo{
+    position: fixed;
+    right: -170px;
+    bottom: 0;
+    width: 0; 
+    height: 0; 
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    border-bottom: 170px solid var(--Vinho-cor);
+    z-index: 1;
+}
 @media screen and (max-width:800px) {
     .SPF h1{
         font-size:4em;
@@ -280,6 +302,18 @@ footer{
     .arquivos h1{
         font-size: 1.3em;
     }
+    .triangulo_cima{
+        left: -50px;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid var(--Vinho-cor);
+    }
+    .triangulo_baixo{
+        right: -50px;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 50px solid var(--Vinho-cor);
+    }
 }
 @media screen and (max-width:300px){
     .SPF h1{
@@ -305,5 +339,17 @@ footer{
     }
     .header_pontuacao h1{
         font-size: 1em;
+    }
+    .triangulo_cima{
+        left: -50px;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 50px solid var(--Vinho-cor);
+    }
+    .triangulo_baixo{
+        right: -50px;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 50px solid var(--Vinho-cor);
     }
 }
