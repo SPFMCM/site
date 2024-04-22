@@ -38,6 +38,10 @@
     font-family: Montserrat-black;
     src: url(../fonts/Montserrat-Black.otf);
 }
+@font-face {
+    font-family: russo;
+    src: url(../fonts/Russo_One.ttf);
+}
 
 /* !VARÁVEIS! */
 .titulo{
@@ -63,6 +67,9 @@
 .black{
     font-family: Montserrat-black;
     font-size: 1.3em;
+}
+.russo{
+    font-family: russo;
 }
 .flex{
     display: flex;
@@ -182,7 +189,7 @@ main{
 }
 .insta h1{
     color: var(--Branco-cor);
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .arquivos{
@@ -233,4 +240,30 @@ footer{
 }
 .fa-instagram:hover{
     color: var(--Vinho-cor);
+}
+@media screen and (max-width:800px) {
+    .SPF h1{
+        font-size: 4.3em;
+    }
+    .pontos{
+        width: 25%;
+    }
+    .pontos h1{
+        font-size: 1em;
+    }
+    .contador{
+        width: 40%;
+    }
+    .header_pontuacao{
+        margin-bottom: 2%;
+    }
+    .arquivos h1{
+        font-size: 1.8em;
+    }
+    .ranking{
+        width: 10%;
+    }
+    .header_pontuacao h1{
+        font-size: 1.8em;
+    }
 }
