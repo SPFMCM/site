@@ -13,64 +13,131 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <!-- !Favicon! -->
         <link rel="shortcut icon" alt="logo DKS" href="assets/img/logos/SPF logo branco.png" type="image/x-icon">
+        <!--JavaScript-->
+        <script src="assets/js/timer.js"></script>
 
         <title>SPF</title>
     </head>
     <body>
-        <header class="flex center w100">
-            <div class="logo flex center">
-                <img class="w100" src="assets/img/logos/SPF logo branco.png" alt="">
-            </div>
-        </header>
         <main class="flex colum center">
             <section class="SPF w90 flex center colum">
-                <h1 class="titulo branco">SEMANA PAULO FREIRE</h1>
-                <h2 class="subtitulo branco">MTEC-Manhã</h2>
+                <h1 class="subtitulo">Semana Paulo Freire</h1>
+            </section>
+            <section class="tempo w100 flex center">
+                <div class="timer flex w100 flex center">
+                    <div id="contReg" class="contador flex center">
+                        <div class="dias flex colum center">
+                            <div class="bold" id="dias">0 :</div>
+                            <h3 class="bold">Dias</h3>
+                        </div>
+                        <div class="horas flex colum center">
+                            <div class="bold" id="horas">0 :</div>
+                            <h3 class="bold">Horas</h3>
+                        </div>
+                        <div class="minutos flex colum center">
+                            <div class="bold" id="minutos">0 :</div>
+                            <h3 class="bold">min</h3>
+                        </div>
+                        <div class="segundos flex colum center">
+                            <div class="bold" id="segundos">0 :</div>
+                            <h3 class="bold">sec</h3>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section class="pontuacao w90 flex center colum">
                 <div class="header_pontuacao flex center w100 colum">
-                    <h1 class="subtitulo branco preto">Venha conferir a pontuação atualizada</h1>
+                    <h1 class="regular branco preto">Ranking diário</h1>
                 </div> 
                 <div class="corpo_pontuacao flex center w100 colum">
                     <div class="container_pontuacao flex center w100 colum">
-                        <div class="w100">
-                            <h2 class="subtitulo">1°A</h2>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 100%"><h2 class="subtitulo">0 PONTOS</h2></div>
+                        <div class="1a equipe flex">
+                            <div class="ranking">
+                                <div class="icon_status">
+                                    <i class="fa-solid fa-caret-up"></i>
+                                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                                    <!-- <i class="fa-solid fa-dash"></i> -->
+                                </div>
+                            </div>
+                            <div class="sala">
+                                <h1 class="bold">1°A Equipe Azul</h1>
+                            </div>
+                            <div class="pontos">
+                                <h1 class="bold">2.625.000 PT</h1>
                             </div>
                         </div>
-                        <div class="w100">
-                            <h2 class="subtitulo">2°A</h2>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 100%"><h2 class="subtitulo">0 PONTOS</h2></div>
+                        <div class="1b equipe flex">
+                            <div class="ranking">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <!-- <i class="fa-solid fa-caret-down"></i> -->
+                                <!-- <i class="fa-solid fa-dash"></i> -->
+                            </div>
+                            <div class="sala">
+                                <h1 class="bold">1°B Equipe Verde</h1>
+                            </div>
+                            <div class="pontos">
+                                <h1 class="bold">156.000 PT</h1>
                             </div>
                         </div>
-                        <div class="w100">
-                            <h2 class="subtitulo">1°B</h2>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 100%"><h2 class="subtitulo">0 PONTOS</h2></div>
+                        <div class="1c equipe flex">
+                            <div class="ranking">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <!-- <i class="fa-solid fa-caret-down"></i> -->
+                                <!-- <i class="fa-solid fa-dash"></i> -->
+                            </div>
+                            <div class="sala">
+                                <h1 class="bold">1°C Equipe Roxa</h1>
+                            </div>
+                            <div class="pontos">
+                                <h1 class="bold">272.000 PT</h1>
+                            </div>
+                        </div>        
+                        <div class="2a equipe flex">
+                            <div class="ranking">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <!-- <i class="fa-solid fa-caret-down"></i> -->
+                                <!-- <i class="fa-solid fa-dash"></i> -->
+                            </div>
+                            <div class="sala">
+                                <h1 class="bold">2°A Equipe Vermelha</h1>
+                            </div>
+                            <div class="pontos">
+                                <h1 class="bold">138.000 PT</h1>
+                            </div>
+                        </div>        
+                        <div class="2b equipe flex">
+                            <div class="ranking">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <!-- <i class="fa-solid fa-caret-down"></i> -->
+                                <!-- <i class="fa-solid fa-dash"></i> -->
+                            </div>
+                            <div class="sala">
+                                <h1 class="bold">2°B Equipe Amarela</h1>
+                            </div>
+                            <div class="pontos">
+                                <h1 class="bold">8.000 PT</h1>
+                            </div>
+                        </div>    
+                        <div class="2c equipe flex">
+                            <div class="ranking">
+                                <i class="fa-solid fa-caret-up"></i>
+                                <!-- <i class="fa-solid fa-caret-down"></i> -->
+                                <!-- <i class="fa-solid fa-dash"></i> -->
+                            </div>
+                            <div class="sala">
+                                <h1 class="bold">2°C Equipe Rosa</h1>
+                            </div>
+                            <div class="pontos">
+                                <h1 class="bold">27.000 PT</h1>
                             </div>
                         </div>
-                        <div class="w100">
-                            <h2 class="subtitulo">2°B</h2>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 100%"><h2 class="subtitulo">0 PONTOS</h2></div>
-                            </div>
-                        </div>
-                        <div class="w100">
-                            <h2 class="subtitulo">1°C</h2>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 100%"><h2 class="subtitulo">0 PONTOS</h2></div>
-                            </div>
-                        </div>
-                        <div class="w100">
-                            <h2 class="subtitulo">2°C</h2>
-                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                <div class="progress-bar" style="width: 100%"><h2 class="subtitulo">0 PONTOS</h2></div>
-                            </div>
-                        </div>                        
                     </div>
                 </div> 
+            </section>
+            <section class="redes flex w100 center">
+                <a href="https://www.instagram.com/spf.mcm/" target="_blank" class="flex center insta">
+                    <i class="fa-brands fa-instagram"></i><h1>Mais informações no nosso instagram</h1>
+                </a>
             </section>
             <section class="arquivos w100 flex center colum">
                 <h1 class="titulo">Baixe os arquivos da SPF</h1>
@@ -83,11 +150,6 @@
                 </div>
             </section>
         </main>
-        <footer class="flex center w100">
-            <div>
-                <a href="https://www.instagram.com/spf.mcm/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
-        </footer>
 
         <!-- !Bootstrap! -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
