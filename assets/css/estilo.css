@@ -275,7 +275,10 @@ footer{
         font-size: 1em;
     }
     .regras{
-        width: 25%;
+        width: 35%;
+    }
+    .arquivos h1{
+        font-size: 1.3em;
     }
 }
 @media screen and (max-width:300px){
