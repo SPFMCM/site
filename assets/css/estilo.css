@@ -273,3 +273,32 @@ footer{
         width: 25%;
     }
 }
+@media screen and (max-width:300px){
+    .SPF h1{
+        font-size: 3em;
+    }
+    .pontos h1{
+        font-size: 0.6em;
+    }
+    .ranking h1{
+        font-size: 0.8em;
+    }
+    .sala h1{
+        font-size: 0.8em;
+    }
+    .insta h1{
+        font-size: 0.6em;
+    }
+    .fa-instagram{
+        font-size: 100%;
+    }
+    .insta{
+        width: 260px;
+    }
+    .arquivos h1{
+        font-size: 0.8em;
+    }
+    .header_pontuacao h1{
+        font-size: 1em;
+    }
+}
