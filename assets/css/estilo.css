@@ -105,6 +105,10 @@
 img{
     width: 100%;
 }
+h1, h2, h3{
+    text-align: center;
+}
+
 
 
 
@@ -235,8 +239,9 @@ footer{
     border-top-right-radius: 40px;
 }
 .fa-instagram{
-    font-size: 40px;
+    font-size: 30px;
     color: var(--Vinho-cor);
+    padding: 1%;
 }
 .fa-instagram:hover{
     color: var(--Vinho-cor);
@@ -288,9 +293,6 @@ footer{
     }
     .insta h1{
         font-size: 0.6em;
-    }
-    .fa-instagram{
-        font-size: 100%;
     }
     .insta{
         width: 260px;
