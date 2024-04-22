@@ -243,13 +243,13 @@ footer{
 }
 @media screen and (max-width:800px) {
     .SPF h1{
-        font-size: 4.3em;
+        font-size:4em;
     }
     .pontos{
-        width: 25%;
+        width: 30%;
     }
     .pontos h1{
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .contador{
         width: 40%;
@@ -265,5 +265,11 @@ footer{
     }
     .header_pontuacao h1{
         font-size: 1.8em;
+    }
+    .sala h1{
+        font-size: 1em;
+    }
+    .regras{
+        width: 25%;
     }
 }
